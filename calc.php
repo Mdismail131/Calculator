@@ -21,7 +21,7 @@ if ($operator == '+') {
 } elseif ($operator == '*') {
     $result = $operand1 * $operand2;
 } elseif ($operator == '/') {
-    if ($operand1 > $operand2) {
+    if ($operand2 == 0) {
         $result = "";
     } else {
         $result = $operand1 / $operand2;
